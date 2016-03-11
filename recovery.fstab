@@ -1,0 +1,9 @@
+/boot		emmc		/dev/block/platform/155a0000.ufs/by-name/BOOT
+/recovery		emmc		/dev/block/platform/155a0000.ufs/by-name/RECOVERY
+/system		ext4		/dev/block/platform/155a0000.ufs/by-name/SYSTEM
+/data		ext4		/dev/block/platform/155a0000.ufs/by-name/USERDATA	flags=encryptable=footer;length=-20480
+/cache		ext4		/dev/block/platform/155a0000.ufs/by-name/CACHE
+/efs			ext4		/dev/block/platform/155a0000.ufs/by-name/EFS		flags=backup=1;display="EFS"
+/modem		emmc		/dev/block/platform/155a0000.ufs/by-name/RADIO	display="Modem"
+/external_sd	vfat		/dev/block/mmcblk0p1 /dev/block/mmcblk0			flags=display="Micro SDcard";storage;wipeingui;removable;settingsstorage
+/usbstorage	vfat		/dev/sde1 /dev/sde							flags=display="USB Storage";storage;wipeingui;removable
