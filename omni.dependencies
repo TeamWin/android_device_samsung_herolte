@@ -1,8 +1,15 @@
 [
 	{
 		"remote":"github",
-		"repository":"teamwin/android_kernel_samsung_universal8890",
+		"repository":"not7100/android_kernel_samsung_universal8890",
 		"target_path":"kernel/samsung/universal8890",
-		"revision":"android-8.1"
-	}
+		"revision":"android-9.0"
+	},
+        {
+                "remote":"github",
+                "repository":"teamwin/android_hardware_samsung",
+                "target_path":"hardware/samsung",
+                "revision":"lineage-16.0"
+        }
+
 ]
