@@ -56,12 +56,11 @@ TW_DEFAULT_BRIGHTNESS := 162
 TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
 TW_INCLUDE_NTFS_3G := true
+LZMA_RAMDISK_TARGETS := recovery
+TW_USE_NEW_MINADBD := true
 
 # exFAT drivers included in the kernel
 TW_NO_EXFAT_FUSE := true
-
-# Encryption support
-TW_INCLUDE_CRYPTO := true
 
 # Asian region languages
 TW_EXTRA_LANGUAGES := true
