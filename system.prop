@@ -2,3 +2,4 @@
 ro.chipname=exynos8890
 ro.arch=exynos8890
 persist.sys.usb.config=mtp,adb
+sys.usb.ffs.aio_compat=1
