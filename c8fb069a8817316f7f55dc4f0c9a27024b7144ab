@@ -16,6 +16,23 @@
       "message": "Can be merged now",
       "revId": "c8fb069a8817316f7f55dc4f0c9a27024b7144ab",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29697018_73b5170a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2022-10-20T23:21:51Z",
+      "side": 1,
+      "message": "You can now merge future commits to this repo.",
+      "revId": "c8fb069a8817316f7f55dc4f0c9a27024b7144ab",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
