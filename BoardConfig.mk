@@ -34,6 +34,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_CUSTOM_BOOTIMG_MK :=  $(DEVICE_TREE)/mkbootimg.mk
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 48234496
 # 000RU = recovery kernel, 000KU = system kernel
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --board SRPOI30A000RU
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
@@ -58,6 +59,7 @@ TW_HAS_DOWNLOAD_MODE := true
 TW_INCLUDE_NTFS_3G := true
 LZMA_RAMDISK_TARGETS := recovery
 TW_USE_NEW_MINADBD := true
+TW_EXCLUDE_PYTHON := true
 
 # exFAT drivers included in the kernel
 TW_NO_EXFAT_FUSE := true
