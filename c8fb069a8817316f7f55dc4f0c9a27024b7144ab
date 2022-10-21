@@ -50,6 +50,23 @@
       "message": "Would you like me to do prod builds?",
       "revId": "c8fb069a8817316f7f55dc4f0c9a27024b7144ab",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87cf4cb6_f3c94f25",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 145
+      },
+      "writtenOn": "2022-10-21T08:53:55Z",
+      "side": 1,
+      "message": "hero2 build works as expected too",
+      "revId": "c8fb069a8817316f7f55dc4f0c9a27024b7144ab",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ],
   "submitRequirementResults": []
