@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "edf3639a_3b6e232d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 145
+      },
+      "writtenOn": "2022-10-21T10:35:09Z",
+      "side": 1,
+      "message": "Guess python didnt build by default on unofficial builds",
+      "revId": "dbc8f55aee55ec5ff0889495835c7351d51efe3a",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
